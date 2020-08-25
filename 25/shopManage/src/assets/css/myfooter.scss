@@ -1,0 +1,30 @@
+.myfooter {
+    $bg-grey: #eeeeee;
+    $font-grey: #6b6b6b;
+    background-color: $bg-grey;
+    width: 100%;
+    height: 230px;
+    margin-top: 20px;
+    div {
+        color: $font-grey;
+        font-size: 12px;
+        word-spacing: 2px;
+    }
+    ul {
+        display: inline-block;
+        word-spacing: 4px;
+        li {
+            list-style: none;
+            float: left;
+            a {
+                text-decoration: none;
+                color: $font-grey;
+            }
+        }
+    }
+    .weixin {
+        img {
+            width: 90px;
+        }
+    }
+}

@@ -1,0 +1,640 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    height: 600px;
+    border: 1px solid #6b6b6b;
+    position: relative;
+}
+
+.boxleft {
+    width: 400px;
+    float: left;
+}
+
+.choose {
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.content {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+
+#listshow {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#listshow li {
+    width: 98px;
+    height: 100px;
+    float: left;
+    border: 1px solid #666;
+}
+
+#listshow li img {
+    width: 98px;
+    height: 100px;
+}
+
+#listshow .selected {
+    border-color: brown;
+}
+
+.larger {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 22px;
+    left: 420px;
+    float: left;
+    overflow: hidden;
+    display: none;
+    z-index: 10;
+}
+
+.larger img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shadow {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(145, 200, 200, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: none;
+}
+
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+    background-color: #ffffff;
+}
+
+
+/* 收藏按键 */
+
+#shoucangbg {
+    width: 80px;
+    height: 20px;
+    background-image: url(http://www.dapu.com/themes/blue/images/favorite01.png);
+    position: absolute;
+    top: 530px;
+    left: 250px;
+}
+
+.shareto {
+    display: inline;
+    padding-left: 115px;
+    padding-top: 80px;
+    background: url(http://www.dapu.com/themes/blue/images/bshare01.png) no-repeat;
+    top: 430px;
+    left: 200px;
+}
+
+.medium {
+    width: 150px;
+    height: 100px;
+}
+
+.boxright {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 450px;
+}
+
+.goods-name {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.product-id {
+    font-size: 14px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.goods-price-box {
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.goodsprice {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7f5b42;
+    margin-top: 10px;
+}
+
+.huiyuan {
+    color: #ffffff;
+    background: #7f5b42;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.how {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+#promotion_show {
+    margin: 0px 0px 5px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.cuxiao {
+    color: #ffffff;
+    background: #b1544f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#promotion_msg {
+    padding-left: 22px;
+    color: #2c3e50;
+    font-size: 12px;
+}
+
+.score-wrap {
+    background: #f6f5f3;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.score-wrap>ul {
+    text-align: center;
+    display: flex;
+    line-height: 30px;
+    width: 80%;
+}
+
+.score-wrap li {
+    flex: 1;
+}
+
+.score-num {
+    font-size: 18px;
+    color: #b1544f;
+}
+
+.tagline {
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+}
+
+.goods-spec {
+    background: #f6f5f3;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    padding: 10px 8px;
+}
+
+.buttontitle {
+    color: #333333;
+    font-weight: bold;
+}
+
+.rightdiv1 {
+    display: inline;
+}
+
+.rightdiv1>a {
+    padding-left: 10px;
+}
+
+.buyinfo {
+    height: 35px;
+    margin: 10px 0px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+}
+
+.shopbutton {
+    padding-top: 20px;
+    border-top: 1px solid #6b6b6bda;
+}
+
+#buttonbox {
+    margin-top: 30px;
+    margin-right: 350px;
+}
+
+.otherbox {
+    border: 1px solid rgba(145, 200, 200, 0.4);
+    margin-left: 350px;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+}
+
+.tel {
+    font: 16px/1.5 Arial, simsun;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.talk {
+    margin: 5px;
+    text-align: left;
+}
+
+.talktext {
+    border: 1px solid #dedede;
+    padding: 15px 15px;
+    line-height: 15px;
+    font: 12px/1.5;
+    color: #6b6b6b;
+}
+
+.talkdate {
+    text-align: right;
+    font: 12px/1.5;
+    color: #6b6b6b;
+}
+
+</style><style scoped>* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    height: 600px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxleft {
+    width: 400px;
+    float: left;
+}
+
+.choose {
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.content {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+
+#listshow {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#listshow li {
+    width: 98px;
+    height: 100px;
+    float: left;
+    border: 1px solid #666;
+}
+
+#listshow li img {
+    width: 98px;
+    height: 100px;
+}
+
+#listshow .selected {
+    border-color: brown;
+}
+
+.larger {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 22px;
+    left: 420px;
+    float: left;
+    overflow: hidden;
+    display: none;
+    z-index: 10;
+}
+
+.larger img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shadow {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(145, 200, 200, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: none;
+}
+
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+    background-color: #ffffff;
+}
+
+
+/* 收藏按键 */
+
+#shoucangbg {
+    width: 80px;
+    height: 20px;
+    background-image: url(http://www.dapu.com/themes/blue/images/favorite01.png);
+    position: absolute;
+    top: 530px;
+    left: 250px;
+}
+
+.shareto {
+    display: inline;
+    padding-left: 115px;
+    padding-top: 80px;
+    background: url(http://www.dapu.com/themes/blue/images/bshare01.png) no-repeat;
+    top: 430px;
+    left: 200px;
+}
+
+.medium {
+    width: 150px;
+    height: 100px;
+}
+
+.boxright {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 450px;
+}
+
+.goods-name {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.product-id {
+    font-size: 14px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.goods-price-box {
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.goodsprice {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7f5b42;
+    margin-top: 10px;
+}
+
+.huiyuan {
+    color: #ffffff;
+    background: #7f5b42;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.how {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+#promotion_show {
+    margin: 0px 0px 5px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.cuxiao {
+    color: #ffffff;
+    background: #b1544f;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#promotion_msg {
+    padding-left: 22px;
+    color: #2c3e50;
+    font-size: 12px;
+}
+
+.score-wrap {
+    background: #f6f5f3;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.score-wrap>ul {
+    text-align: center;
+    display: flex;
+    line-height: 30px;
+    width: 80%;
+}
+
+.score-wrap li {
+    flex: 1;
+}
+
+.score-num {
+    font-size: 18px;
+    color: #b1544f;
+}
+
+.tagline {
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+}
+
+.goods-spec {
+    background: #f6f5f3;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    padding: 10px 8px;
+}
+
+.buttontitle {
+    color: #333333;
+    font-weight: bold;
+}
+
+.rightdiv1 {
+    display: inline;
+    margin-left: 20px;
+}
+
+.rightdiv1>a {
+    padding-left: 10px;
+}
+
+.buyinfo {
+    height: 35px;
+    margin: 10px 0px;
+    color: #6b6b6b;
+    font-family: 微软雅黑;
+    background-color: #ffffff;
+}
+
+.shopbutton {
+    padding-top: 20px;
+    border-top: 1px solid #6b6b6bda;
+}
+
+#buttonbox {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.otherbox {
+    border: 1px solid rgba(145, 200, 200, 0.4);
+    margin-left: 50px;
+    min-height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+}
+
+.tel {
+    font: 16px/1.5 Arial, simsun;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.talk {
+    margin: 5px;
+    text-align: left;
+}
+
+.talktext {
+    border: 1px solid #dedede;
+    padding: 15px 15px;
+    line-height: 15px;
+    font: 12px/1.5;
+    color: #6b6b6b;
+}
+
+.talkdate {
+    text-align: right;
+    font: 12px/1.5;
+    color: #6b6b6b;
+}
+
+.bottomcontent {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    text-align: left;
+}
+
+.btshop {
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.btright {
+    width: 80%;
+}

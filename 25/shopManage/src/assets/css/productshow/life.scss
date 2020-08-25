@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$font-grey: #6b6b6b;
+$font-size13: 13px;
+$font-weight: bold;
+$bg-grey: #bfbebe;
+$bg-grey2: #e6e6e6;
+$font-blue: #4e8fc2;
+$acolor: #7f5b42;
+.lifeapp {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    width: 1200px;
+    // margin-top: 10px;
+    margin: 5px auto;
+    color: $font-grey;
+    font-size: $font-size13;
+    .sort {
+        margin-top: 0px;
+        height: 50px;
+        border-top: 1px solid $bg-grey2;
+        background: linear-gradient($bg-grey2, 15%, #ffffff);
+        ul {
+            display: flex;
+            li {
+                margin-left: 10px;
+                line-height: 50px;
+                span {
+                    float: right;
+                    font-size: 13px;
+                }
+                a {
+                    color: #6b6b6b;
+                }
+            }
+            li:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        .items {
+            margin: 0 10px;
+        }
+        .goods {
+            width: 218px;
+            // height: 330px;
+            // margin: 0 5px;
+            border: 1px solid $bg-grey2;
+            margin-bottom: 20px;
+            .left {
+                position: absolute;
+                bottom: 70px;
+                left: 0;
+                font-size: 25px;
+                cursor: pointer;
+            }
+            .right {
+                position: absolute;
+                bottom: 70px;
+                right: 2px;
+                font-size: 25px;
+                cursor: pointer;
+            }
+            .bigImgBox {
+                position: relative;
+                width: 218px;
+                height: 218px;
+                z-index: 5;
+                overflow: hidden;
+                margin-bottom: 10px;
+                cursor: pointer;
+                .hotflag {
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    width: 48px;
+                    height: 55px;
+                    background: url(~assets/images/other/hotflag.png);
+                    z-index: 3;
+                }
+                .topflag {
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    background-size: 48px 55px;
+                    width: 48px;
+                    height: 55px;
+                    background: url(~assets/images/other/topflag.png);
+                    z-index: 3;
+                }
+                .newflag {
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    background-size: 48px 55px;
+                    width: 48px;
+                    height: 55px;
+                    background: url(~assets/images/other/newflag.png);
+                    z-index: 3;
+                }
+                .big {
+                    position: absolute;
+                    width: 218px;
+                    height: 218px;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: 2s;
+                    }
+                }
+            }
+            .little {
+                width: 205px;
+                height: 39px;
+                margin: 0 auto;
+                overflow: hidden;
+                margin-bottom: 20px;
+                li:first-child {
+                    margin-left: 15px;
+                }
+                li {
+                    float: left;
+                    margin: 0 3px;
+                    height: 35px;
+                    border: 2px solid #aaa7a6;
+                }
+                .imgBorder {
+                    border: 2px solid #b1544f;
+                }
+                img {
+                    width: 35px;
+                    height: 35px;
+                    cursor: pointer;
+                }
+            }
+            p {
+                padding: 5px;
+                color: red;
+            }
+            .textHide {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #6b6b6b;
+                cursor: pointer;
+                padding: 10px 5px;
+                &:hover {
+                    color: #5a2e2e;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.empty {
+    font-size: 16px;
+    color: #555;
+    padding: 20px 0 50px 0;
+}
+
+.name {
+    width: 100%;
+    margin-top: 40px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid $bg-grey;
+    color: $font-grey;
+    font-size: $font-size13;
+    span {
+        font-weight: $font-weight;
+        float: left;
+    }
+    a {
+        float: right;
+        text-decoration: none;
+        color: $font-blue;
+    }
+}
+
+.bedchose {
+    width: 1200px;
+    margin: 0 auto;
+    div {
+        height: 40px;
+        border-bottom: 1px solid $bg-grey2;
+    }
+    ul {
+        display: flex;
+        li {
+            margin-left: 10px;
+            color: $font-grey;
+            line-height: 40px;
+            font-size: $font-size13;
+            a {
+                color: $acolor;
+                font-family: tahoma, arial, simsun;
+                font-size: 12px;
+            }
+        }
+        li:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    .selected {
+        background: #aa998d !important;
+        height: 20px;
+        color: white;
+    }
+}

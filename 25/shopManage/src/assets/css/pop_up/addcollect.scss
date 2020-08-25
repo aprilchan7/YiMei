@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#addcollect {
+    position: absolute;
+    z-index: 19999;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -255px;
+    margin-top: -155px;
+    .addcollect-body {
+        background: #f3ece6;
+        border: 5px solid #dedede;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+        button {
+            outline: none;
+            border: none;
+            cursor: pointer;
+            height: 16px;
+            width: 16px;
+            color: #736459;
+            float: right;
+            margin: 20px 20px 0 0;
+            background-color: transparent;
+        }
+        .addcollect-content {
+            padding: 100px 0;
+            table {
+                width: 100%;
+                text-align: center;
+                td {
+                    padding: 10px 0;
+                    height: 30px;
+                    line-height: 30px;
+                }
+                h3 {
+                    font-family: 微软雅黑;
+                    color: #736459;
+                    background: transparent url(~assets/images/other/dui2.jpg) no-repeat 35%;
+                    background-size: 30px 30px;
+                }
+                a {
+                    color: #b10000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

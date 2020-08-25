@@ -1,0 +1,107 @@
+{
+  "id": "1812197",
+  "name": "font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "782377",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "868620",
+      "name": "icon-分享",
+      "font_class": "iconfenxiang",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "880167",
+      "name": "首页",
+      "font_class": "shouyeshouye",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "993786",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "2104635",
+      "name": "下降",
+      "font_class": "web-icon-",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "2104636",
+      "name": "上升",
+      "font_class": "web-icon-1",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "5327581",
+      "name": "加号2",
+      "font_class": "jiahao",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "15779655",
+      "name": "个人中心-2",
+      "font_class": "gerenzhongxin-2",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "15779669",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "15779672",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "1980463",
+      "name": "fa-comment",
+      "font_class": "fa-comment",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "3152796",
+      "name": "fa-heart",
+      "font_class": "fa-heart",
+      "unicode": "e939",
+      "unicode_decimal": 59705
+    },
+    {
+      "icon_id": "7649037",
+      "name": "fa-fire",
+      "font_class": "fire",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "15419936",
+      "name": "bookmark",
+      "font_class": "bookmark",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
